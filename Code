@@ -31,5 +31,5 @@ public class DiceRollingProject {
 			response = scanner.nextLine();
 		}
 		Random dice = new Random();
-		int x = random.nextInt(0)+6;
+		int x = dice.nextInt(6) + 1;
 		System.out.println(x);
